@@ -15,7 +15,7 @@ public class OperationsHandler {
     private final String NO_SAVED = "THERE IS NOTHING HERE";
     private final int MAX_CAPACITY = 10;
     private final int MAX_NUM = 9;
-    Calculation calculation = new Calculation();
+    private Calculation calculation = new Calculation();
     private final List<String> saved = new ArrayList<>(MAX_CAPACITY);
     private final List<String> problem = new ArrayList<>();
     private final MathProblemDisplayer output;
